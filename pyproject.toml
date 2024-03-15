@@ -1,0 +1,20 @@
+[project]
+name = "example_package_zakwan"
+version = "0.0.1"
+authors = [{ name = "Zakwan Hisham", email = "hishamzakwan@gmail.com" }]
+description = "An Example tutorial to package python code"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/zakwanhisham/py-package"
+Issues = "https://github.com/zakwanhisham/py-package/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
